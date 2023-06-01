@@ -3,7 +3,7 @@ import csv
 
 drivers = ['Morten', 'Madis', 'Rannar', 'Rasmus', 'Sten']
 laps = 10
-filename = 'Result.csv'
+filename = 'Result.txt'
 file_header = ['Ring', 'Nimi', 'Aeg', 'Sektor1', 'Sektor2', 'Sektor3', 'Viga']
 results = []
 minimum_sector_time = 23
