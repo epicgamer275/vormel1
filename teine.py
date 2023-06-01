@@ -34,7 +34,7 @@ if __name__ == '__main__':
     lap_times = {}
     lap_errors = {}
 
-    with open(filename, 'r', encoding='utf-8') as file:
+    with open('Result.txt', 'r', encoding='utf-8') as file:
         lines = file.readlines()
         file_header = lines[0]
         for line in lines[1:]:
